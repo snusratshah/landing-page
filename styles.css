@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+/* Hero Section */
+
+.hero-section{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.hero-logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.header, .text-and-image{
+    width: 80%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto 40px;
+}
+
+h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-secondary{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header ul li{
+    display: inline;
+    margin-left: 20px;
+}
+
+.text-and-image{
+    display: flex;
+    margin: 0px auto 80px;
+    justify-content: space-between;
+}
+
+.text-and-image a{
+    color: orange;
+}
+
+.text {
+    width: 40%;
+}
+
+.header a{
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+
+.signup-btn{
+    background-color: #3882F6;
+    border: none;
+    border-radius: 8px;
+    color: #F9FAF8;
+    padding: 5px 15px;
+    font-weight: 900;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+
+/* Gallery Section */
+
+.gallery-container{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 60px;
+}
+
+.img {
+    border: #3882F6 4px solid;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.gallery-h2{
+    text-align: center;
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
+    margin: 30px auto;
+}
+
+.img-container{
+    width: 150px;
+}
+
+/* Quote Section */
+
+.quote-section{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-weight: 300;
+    padding: 100px;
+}
+
+blockquote{
+    width: 50%;
+    margin: 0 auto;
+}
+
+blockquote span{
+    font-weight: 900;
+}
+
+/* Call to Action Section */
+
+.cta-section{
+    padding: 100px 180px;
+}
+
+.cta-card{
+    background-color: #3882F6;
+    display: flex;
+    padding: 60px 100px;
+    border-radius: 10px;
+    color: #F9FAF8;
+    justify-content: space-around;
+}
+
+.cta-card .signup-btn{
+    border: #F9FAF8 2px solid;
+}
+
+
+/* Footer section */
+
+footer{
+    background-color: #1F2937;
+    padding: 40px;
+    color: #F9FAF8;
+    text-align: center;
+}
